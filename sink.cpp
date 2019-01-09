@@ -1,4 +1,5 @@
 // Parallel Sink Server
+// Binds PULL Socket to tcp://localhost:5558
 
 #include <zmq.hpp>
 #include <iostream>
