@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 
         message.rebuild(10);
         memset(message.data(), '\0', 10);
-        sprintf((char *)message.data(), "%d", workload);
+        sprintf((char*)message.data(), "%d", workload);
         sender.send(message);
     }
     std::cout << "Total Expected Cost: " << total_msec << std::endl;
